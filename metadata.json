@@ -1,0 +1,6 @@
+{
+  "name": "Unblocked Games Hub",
+  "description": "An unblocked games platform featuring iframe embeds stored in JSON, category filters, search, favorites, custom iframe adder, and fullscreen play mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
