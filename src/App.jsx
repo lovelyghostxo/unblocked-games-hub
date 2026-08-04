@@ -76,9 +76,9 @@ export default function App() {
   const [isCloakModalOpen, setIsCloakModalOpen] = useState(false);
   const [theme, setTheme] = useState('dark');
 
-  // Fetch games from /games.json on mount
+  // Fetch games from ./games.json on mount
   useEffect(() => {
-    fetch('/games.json')
+    fetch('./games.json')
       .then((res) => res.json())
       .then((data) => {
         if (Array.isArray(data) && data.length > 0) {
